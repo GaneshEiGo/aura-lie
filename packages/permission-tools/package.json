@@ -1,0 +1,20 @@
+{
+  "name": "@aura-lie/permission-tools",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "exports": {
+    ".": "./src/index.ts",
+    "./types": "./src/types.ts",
+    "./matrix": "./src/matrix.ts",
+    "./session": "./src/session.ts",
+    "./registry": "./src/registry.ts",
+    "./enforce": "./src/enforce.ts",
+    "./compat": "./src/compat.ts"
+  },
+  "scripts": {
+    "test": "vitest run"
+  }
+}

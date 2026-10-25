@@ -1,0 +1,26 @@
+{
+  "name": "@aura-lie/truth-pipeline",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "exports": {
+    ".": "./src/index.ts",
+    "./types": "./src/types.ts",
+    "./claim-extractor": "./src/claim-extractor.ts",
+    "./sources": "./src/sources.ts",
+    "./factors": "./src/factors.ts",
+    "./judge": "./src/judge.ts",
+    "./verify-turn": "./src/verify-turn.ts"
+  },
+  "dependencies": {
+    "@aura-lie/circuit-breaker": "workspace:*",
+    "@aura-lie/router-engine": "workspace:*",
+    "@aura-lie/search-broker": "workspace:*",
+    "@aura-lie/truth": "workspace:*"
+  },
+  "scripts": {
+    "test": "vitest run"
+  }
+}

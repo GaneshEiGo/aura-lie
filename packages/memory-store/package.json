@@ -1,0 +1,21 @@
+{
+  "name": "@aura-lie/memory-store",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "exports": {
+    ".": "./src/index.ts",
+    "./types": "./src/types.ts",
+    "./bm25": "./src/bm25.ts",
+    "./vector": "./src/vector.ts",
+    "./store": "./src/store.ts"
+  },
+  "dependencies": {
+    "@aura-lie/memory-curator": "workspace:*"
+  },
+  "scripts": {
+    "test": "vitest run"
+  }
+}

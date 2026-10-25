@@ -1,0 +1,30 @@
+{
+  "name": "@aura-lie/edge",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "dependencies": {
+    "@aura-lie/circuit-breaker": "workspace:*",
+    "@aura-lie/cost-guard": "workspace:*",
+    "@aura-lie/edge-chat-handler": "workspace:*",
+    "@aura-lie/kill-switch-audit": "workspace:*",
+    "@aura-lie/orchestrator-core": "workspace:*",
+    "@aura-lie/permission-tools": "workspace:*",
+    "@aura-lie/quota-ledger": "workspace:*",
+    "@aura-lie/router-engine": "workspace:*",
+    "@aura-lie/search-broker": "workspace:*",
+    "@aura-lie/stream-proxy": "workspace:*",
+    "@aura-lie/tools-runner": "workspace:*",
+    "@aura-lie/truth": "workspace:*",
+    "@aura-lie/truth-pipeline": "workspace:*",
+    "hono": "^4.6.0"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20240909.0"
+  },
+  "scripts": {
+    "test": "vitest run"
+  }
+}

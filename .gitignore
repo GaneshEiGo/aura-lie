@@ -1,0 +1,23 @@
+﻿# Secrets
+.env
+.env.local
+.env.*.local
+
+# Dependencies
+node_modules/
+pnpm-lock.yaml
+
+# Builds
+dist/
+build/
+
+# Logs
+*.log
+server.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Large bundles
+aura-lie-master-repo.zip

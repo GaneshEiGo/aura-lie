@@ -1,0 +1,16 @@
+{
+  "name": "@aura-lie/orchestrator",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "dependencies": {
+    "@aura-lie/shared": "workspace:*",
+    "@aura-lie/router": "workspace:*",
+    "@aura-lie/truth": "workspace:*",
+    "@aura-lie/search": "workspace:*",
+    "@aura-lie/claim-verify": "workspace:*",
+    "@aura-lie/security": "workspace:*"
+  }
+}

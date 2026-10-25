@@ -1,0 +1,19 @@
+{
+  "name": "@aura-lie/heartbeat",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "exports": {
+    ".": "./src/index.ts",
+    "./types": "./src/types.ts",
+    "./score": "./src/score.ts",
+    "./quiet": "./src/quiet.ts",
+    "./rollover": "./src/rollover.ts",
+    "./heartbeat": "./src/heartbeat.ts"
+  },
+  "scripts": {
+    "test": "vitest run"
+  }
+}

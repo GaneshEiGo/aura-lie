@@ -1,0 +1,24 @@
+{
+  "name": "@aura-lie/autonomy-runner",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "exports": {
+    ".": "./src/index.ts",
+    "./types": "./src/types.ts",
+    "./goals": "./src/goals.ts",
+    "./stop": "./src/stop.ts",
+    "./budget": "./src/budget.ts",
+    "./permission": "./src/permission.ts",
+    "./handoff": "./src/handoff.ts",
+    "./dryrun": "./src/dryrun.ts",
+    "./runner": "./src/runner.ts",
+    "./sentence": "./src/sentence.ts",
+    "./blueprint": "./src/blueprint.ts"
+  },
+  "scripts": {
+    "test": "vitest run"
+  }
+}

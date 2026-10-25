@@ -1,0 +1,18 @@
+{
+  "name": "@aura-lie/stream-proxy",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "exports": {
+    ".": "./src/index.ts",
+    "./types": "./src/types.ts",
+    "./budget": "./src/budget.ts",
+    "./sse": "./src/sse.ts",
+    "./proxy": "./src/proxy.ts"
+  },
+  "scripts": {
+    "test": "vitest run"
+  }
+}

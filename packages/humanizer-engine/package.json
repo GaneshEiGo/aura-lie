@@ -1,0 +1,25 @@
+{
+  "name": "@aura-lie/humanizer-engine",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "exports": {
+    ".": "./src/index.ts",
+    "./types": "./src/types.ts",
+    "./banned-filler": "./src/banned-filler.ts",
+    "./structural": "./src/structural.ts",
+    "./uncertainty": "./src/uncertainty.ts",
+    "./sentience": "./src/sentience.ts",
+    "./guilt": "./src/guilt.ts",
+    "./emoji": "./src/emoji.ts",
+    "./corrections": "./src/corrections.ts",
+    "./style-commands": "./src/style-commands.ts",
+    "./persona-linter": "./src/persona-linter.ts",
+    "./lint": "./src/lint.ts"
+  },
+  "scripts": {
+    "test": "vitest run"
+  }
+}
